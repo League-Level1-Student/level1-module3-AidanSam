@@ -5,7 +5,9 @@ public static void main(String[] args) {
 	
 
 
-Athlete troy = new Athlete(String Troy, int 1000, int 200);
+	IntroToStatic troy = new IntroToStatic();
+	troy.PrintData();
+troy.Athlete("bob", 2);
 
 }
 

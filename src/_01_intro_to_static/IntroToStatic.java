@@ -13,7 +13,12 @@ public class IntroToStatic {
         this.name = name;
         this.speed = speed;
     }
-
+     void PrintData () {
+     System.out.println(raceLocation);
+     System.out.println(raceStartTime);
+     
+     
+}
     public static void main(String[] args) {
         //create two athletes
         //print their names, bibNumbers, and the location of their race. 

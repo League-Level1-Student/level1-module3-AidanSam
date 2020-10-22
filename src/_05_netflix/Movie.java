@@ -13,7 +13,9 @@ public class Movie implements Comparable<Movie> {
 
 	public Movie(String title, int stars) {
 		this.title = title;
+		System.out.println(title);
 		this.stars = stars;
+		System.out.println(stars);
 	}
 
 	public String getTitle() {
@@ -35,6 +37,7 @@ public String getTicketPrice() {
 			return "This movie is so bad, we'll pay YOU to watch it!";
 		} else {
 			return "Don't waste your money on this horrible rubbish.";
+		
 		}
 	}
  
